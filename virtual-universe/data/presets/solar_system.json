@@ -1,0 +1,16 @@
+{
+  "name": "Solar System (reference metadata)",
+  "notes": "Actual initial conditions are constructed in experiments/scenarios.py using circular-orbit approximations about the Sun. Values below are documentation only.",
+  "units": {"mass": "kg", "radius": "m", "distance": "AU"},
+  "bodies": [
+    {"name": "Sun", "mass": 1.98847e30, "radius": 6.957e8},
+    {"name": "Mercury", "a_au": 0.387, "mass": 3.301e23, "radius": 2.440e6},
+    {"name": "Venus", "a_au": 0.723, "mass": 4.867e24, "radius": 6.052e6},
+    {"name": "Earth", "a_au": 1.0, "mass": 5.9722e24, "radius": 6.371e6},
+    {"name": "Mars", "a_au": 1.524, "mass": 6.417e23, "radius": 3.390e6},
+    {"name": "Jupiter", "a_au": 5.203, "mass": 1.898e27, "radius": 6.991e7},
+    {"name": "Saturn", "a_au": 9.537, "mass": 5.683e26, "radius": 5.823e7},
+    {"name": "Uranus", "a_au": 19.191, "mass": 8.681e25, "radius": 2.536e7},
+    {"name": "Neptune", "a_au": 30.069, "mass": 1.024e26, "radius": 2.462e7}
+  ]
+}
